@@ -2,9 +2,9 @@ import React from "react";
 
 const App = () => {
   return (
-    <div className="min-h-screen  transition-all p-20">
+    <div className="min-h-screen w-[1440px] mx-auto transition-all p-20">
       <header>
-        <div className="flex justify-between items-center pr-8">
+        <div className="flex justify-between items-center pr-[40px]">
           <img src="/logo.svg" className="w-[50px]" alt="" />
           <div>
             <ul className="flex gap-[60px] text-sm items-center  ">
@@ -16,11 +16,10 @@ const App = () => {
             </ul>
           </div>
         </div>
-        <div></div>
       </header>
 
       {/* content */}
-      <div className="flex gap-8 mt-10">
+      <div className="flex gap-7 mt-10 ">
         {/* content */}
         <div className="w-2/3 ">
           <div>
@@ -34,13 +33,13 @@ const App = () => {
                 Future of <br /> Web 3.0?
               </h1>
             </div>
-            <div className="flex px-10 justify-around flex-col  w-[400px]">
-              <p className="text-sm  leading-6">
+            <div className="flex px-11 justify-around flex-col w-[400px]">
+              <p className="text-sm font-semibold text-gray-400 leading-6">
                 We dive into the next evolution of the web that claims to put
                 the power of the plattforms back into the hands of the people.
                 But is it really fulfilling its promise?
               </p>
-              <button className=" uppercase w-[200px] py-2 tracking-widest text-white bg-[#f15e50] hover:bg-black transition-all">
+              <button className=" uppercase w-[230px] py-2 tracking-widest text-white bg-[#f15e50] hover:bg-black transition-all">
                 read more
               </button>
             </div>
@@ -48,7 +47,7 @@ const App = () => {
         </div>
 
         {/* aside */}
-        <div className="w-[360px] bg-black text-gray-500 p-4  text-3xl">
+        <div className="w-[360px] h-[551px] bg-black text-gray-500 p-4  text-3xl">
           <div>
             <h1 className="font-bold text-[#e9ab53]">New</h1>
           </div>
@@ -75,7 +74,7 @@ const App = () => {
             <h1 className="text-white text-[20px] font-semibold hover:text-[#e9ab53] cursor-pointer">
               Is VC Funding Drying Up?
             </h1>
-            <p className="text-[18px]">
+            <p className="text-[18px] ">
               Private funding by VC firms is down 50$ YOY. We take a look at
               what that means.
             </p>
@@ -92,8 +91,12 @@ const App = () => {
           </div>
           <div className="flex justify-around flex-col">
             <span className="text-4xl text-gray-300 font-bold">01</span>
-            <h1 className="font-bold text-md hover:text-[#f15e50] cursor-pointer">Reviving Retro Pcs</h1>
-            <p className="text-xs">What happens when old PCs are given modern upgrade?</p>
+            <h1 className="font-bold text-md hover:text-[#f15e50] cursor-pointer">
+              Reviving Retro Pcs
+            </h1>
+            <p className="text-xs text-gray-400">
+              What happens when old PCs are given modern upgrade?
+            </p>
           </div>
         </div>
         <div className="flex gap-4 w-[360px]">
@@ -102,8 +105,12 @@ const App = () => {
           </div>
           <div className="flex flex-col justify-between ">
             <span className="text-4xl text-gray-300 font-bold">02</span>
-            <h1 className="font-bold text-md hover:text-[#f15e50] cursor-pointer">Top 10 Laptops 2022</h1>
-            <p className="text-xs">Our best picks for various needs and budgets</p>
+            <h1 className="font-bold text-md hover:text-[#f15e50] cursor-pointer">
+              Top 10 Laptops 2022
+            </h1>
+            <p className="text-xs text-gray-400">
+              Our best picks for various needs and budgets
+            </p>
           </div>
         </div>
         <div className="flex gap-4 w-[360px]">
@@ -112,8 +119,12 @@ const App = () => {
           </div>
           <div className="flex flex-col justify-between ">
             <span className="text-4xl text-gray-300 font-bold">03</span>
-            <h1 className="font-bold text-md hover:text-[#f15e50] cursor-pointer">The Growth of Gaming</h1>
-            <p className="text-xs">How the pandemic has sparked fresh opportunities</p>
+            <h1 className="font-bold text-md hover:text-[#f15e50] cursor-pointer">
+              The Growth of Gaming
+            </h1>
+            <p className="text-xs text-gray-400">
+              How the pandemic has sparked fresh opportunities
+            </p>
           </div>
         </div>
       </div>
