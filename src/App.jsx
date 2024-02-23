@@ -89,12 +89,12 @@ const App = () => {
           <div>
             <img src="image-retro-pcs.jpg" className="w-[240px]" alt="" />
           </div>
-          <div className="flex justify-around flex-col">
+          <div className="flex justify-between flex-col">
             <span className="text-4xl text-gray-300 font-bold">01</span>
             <h1 className="font-bold text-md hover:text-[#f15e50] cursor-pointer">
               Reviving Retro Pcs
             </h1>
-            <p className="text-xs text-gray-400">
+            <p className="text-xs text-gray-400 mb-4">
               What happens when old PCs are given modern upgrade?
             </p>
           </div>
@@ -122,7 +122,7 @@ const App = () => {
             <h1 className="font-bold text-md hover:text-[#f15e50] cursor-pointer">
               The Growth of Gaming
             </h1>
-            <p className="text-xs text-gray-400">
+            <p className="text-xs text-gray-400 mb-1">
               How the pandemic has sparked fresh opportunities
             </p>
           </div>
